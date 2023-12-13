@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">TIC TAC TOE</h1>
+    </header>
+    <div class="modal">
+      <div class ="player-details-modal">
+        <div class="form-container">
+         
+              <div class="player-names">Enter player names</div>
+
+              <label class="player-details" for="playerone"> Player One : </label>
+              <input class="player-details" id="playerone" type="text" />
+
+              <label class="player-details" for="playertwo"> Player Two : </label>
+              <input class="player-details" id="playertwo" type="text" />
+         
+            <div class="button-center">
+              <label for="submit"></label>
+              <button class="buttons start-button">Start Game</button>
+            </div>
+            
+         
+      </div>
+        </div>
+    
+    </div>
+    <div class="main">
+
+      <div class="main-board">
+        <div class="message" id="status">welcome to the jungle</div>
+        <div class="button-area">
+          <button class="buttons" id="new-game">New Game</button>
+          <button class="buttons" id="reset">Reset</button>
+        </div>
+        <div class="grid">
+          <div class="cell" cellindex="0"></div>
+          <div class="cell" cellindex="1"></div>
+          <div class="cell" cellindex="2"></div>
+          <div class="cell" cellindex="3"></div>
+          <div class="cell" cellindex="4"></div>
+          <div class="cell" cellindex="5"></div>
+          <div class="cell" cellindex="6"></div>
+          <div class="cell" cellindex="7"></div>
+          <div class="cell" cellindex="8"></div>
+        </div>
+      </div>
+  </body>
+</html>

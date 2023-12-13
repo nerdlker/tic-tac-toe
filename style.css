@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Maven+Pro&display=swap");
+
+html {
+  background-color: bisque;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+}
+.header {
+  text-align: center;
+  margin: auto;
+  background-color: #6c587f;
+  color: aliceblue;
+  height: 5em;
+  justify-content: center;
+  display: flex;
+}
+
+.grid {
+  display: grid;
+  gap: 4px;
+  background-color: red;
+  grid-template-columns: repeat(3, 1fr);
+  width: 500px;
+}
+
+.cell {
+  padding: 10px;
+  background-color: #ccc;
+  font-family: Indie Flower;
+  text-align: center;
+  font-size: 6em;
+  height: 150px;
+}
+.main-board {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.message {
+  text-align: center;
+  padding: 20px;
+}
+
+.button-area {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 1rem;
+}
+
+.main {
+  margin: 1em;
+}
+
+/* CSS */
+.buttons {
+  background-color: #ffffff;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow 0.2s, -ms-transform 0.1s, -webkit-transform 0.1s, transform 0.1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: 10em;
+}
+
+.buttons:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow 0.2s;
+}
+
+.buttons:active {
+  background-color: #f7f7f7;
+  border-color: #000000;
+  transform: scale(0.96);
+}
+
+.buttons23:disabled {
+  border-color: #dddddd;
+  color: #dddddd;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+/* MODAL DESIGN */
+.modal {
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  visibility: hidden; /* visible */
+}
+
+.player-details-modal {
+  position: fixed;
+  width: 350px;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: #6c587f;
+  border-radius: 20px;
+  z-index: 1;
+  left: 0;
+  right: 0;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.player-names {
+  text-align: center;
+  color: #ccc;
+  font-size: 1.4rem;
+  padding: 10px;
+}
+
+.button-center {
+  display: grid;
+  place-items: center;
+  margin: 20px;
+  margin-top: 32px;
+}
+
+/* END OF MODAL DESIGN */
