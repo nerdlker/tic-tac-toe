@@ -5,6 +5,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: indie flower;
+  font-size: large;
 }
 body {
   margin: 0;
@@ -17,6 +18,10 @@ body {
   height: 5em;
   justify-content: center;
   display: flex;
+}
+
+label {
+  color: wheat;
 }
 
 .grid {
@@ -35,6 +40,9 @@ body {
   text-align: center;
   font-size: 6em;
   height: 150px;
+}
+.won-cell {
+  background-color: #b1e5e3;
 }
 .main-board {
   display: flex;
@@ -131,6 +139,7 @@ body {
   z-index: 1;
   left: 0;
   right: 0;
+  font-size: 1.4em;
 }
 input[type="text"] {
   width: 100%;
@@ -138,6 +147,7 @@ input[type="text"] {
   margin: 8px 0;
   display: block;
   border: 1px solid #ccc;
+  color: rgb(0, 0, 0);
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -146,7 +156,7 @@ input[type="text"] {
   text-align: center;
   color: #ccc;
   font-size: 1.4rem;
-  padding: 10px;
+  padding: 25px;
 }
 
 .button-center {
@@ -154,6 +164,17 @@ input[type="text"] {
   place-items: center;
   margin: 20px;
   margin-top: 32px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 1em;
+}
+a {
+  text-decoration: none;
 }
 
 /* END OF MODAL DESIGN */

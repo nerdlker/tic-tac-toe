@@ -12,29 +12,22 @@
       <h1 class="title">TIC TAC TOE</h1>
     </header>
     <div class="modal">
-      <div class ="player-details-modal">
+      <div class="player-details-modal">
         <div class="form-container">
-         
-              <div class="player-names">Enter player names</div>
+          <div class="player-names">Enter player names</div>
+          <label class="player-details" for="playerone"> Player One : </label>
+          <input class="player-details" id="playerone" type="text" />
+          <label class="player-details" for="playertwo"> Player Two : </label>
+          <input class="player-details" id="playertwo" type="text" />
 
-              <label class="player-details" for="playerone"> Player One : </label>
-              <input class="player-details" id="playerone" type="text" />
-
-              <label class="player-details" for="playertwo"> Player Two : </label>
-              <input class="player-details" id="playertwo" type="text" />
-         
-            <div class="button-center">
-              <label for="submit"></label>
-              <button class="buttons start-button">Start Game</button>
-            </div>
-            
-         
-      </div>
+          <div class="button-center">
+            <label for="submit"></label>
+            <button class="buttons start-button" id="player-box-button">Start Game</button>
+          </div>
         </div>
-    
+      </div>
     </div>
     <div class="main">
-
       <div class="main-board">
         <div class="message" id="status">Click New Game to start</div>
         <div class="button-area">
@@ -53,5 +46,9 @@
           <div class="cell" cellindex="8"></div>
         </div>
       </div>
+    </div>
+    <a href="https://github.com/nerdlker"
+      ><div class="footer">made by nerdlekar <img src="images/github-mark.png" width="20" alt="" srcset="" /></div
+    ></a>
   </body>
 </html>
