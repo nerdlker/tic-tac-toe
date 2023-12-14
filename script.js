@@ -112,7 +112,7 @@ const GameBoard = (function () {
       gameStatus.textContent = `${currentPlayer.name}'s Turn with ${currentPlayer.mark}`;
     },
     win: () => {
-      gameStatus.textContent = `${currentPlayer.name}'s Wins`;
+      gameStatus.textContent = `${currentPlayer.name} Wins`;
       startGameBtn.textContent = "Play Again?";
       displayController.colorCells();
     },
